@@ -3,25 +3,25 @@ module.exports = {
   lessonsDir: "lessons", // The name of the directory that contains lessons or docs.
   siteTitle: "WixQuix", // Site title.
   siteTitleAlt: "Quix for interactive multi-source data analytics. Build BI queries of multi-sourced data via wizard or raw code. Organize and share your sql and python BI queries. Share and embed BI data.", // Alternative site title for SEO.
-  siteLogo: "https://svitlanako.github.io/gatsby-doc-template/logos/wix_logo.png", // Logo used for SEO and manifest.
-  siteUrl: "https://quix.com", // Domain of your website without pathPrefix.
-  pathPrefix: "/gatsby-doc-template", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  siteLogo: "https://wix-incubator.github.io/oss-gatsby-template-draft/logos/wix_logo.png", // Logo used for SEO and manifest.
+  siteUrl: "https://wix-incubator.github.io/oss-gatsby-template-draft", // Domain of your website without pathPrefix.
+  pathPrefix: "/oss-gatsby-template-draft", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Design and embed interactive multi-source data analytics. Build BI queries of multi-sourced data via wizard or raw code. Organize and share your sql and python BI queries. Share and embed BI data.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-82450300-1 ", // GA tracking ID.
+  siteFBAppID: "", // FB Application ID for using app insights
+  googleAnalyticsID: " ", // GA tracking ID.
   disqusShortname: "https-wix-incubator-github-io-oss-gatsby-doc-template", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "User", // Username to display in the author segment.
   userTwitter: "wix", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Israel, TV", // User location to display in the author segment.
-  userAvatar: "https://svitlanako.github.io/gatsby-doc-template/logos/wix.png", // User avatar to display in the author segment.
+  userAvatar: "https://wix-incubator.github.io/oss-gatsby-template-draft/logos/wix.png", // User avatar to display in the author segment.
   userDescription: "Wix Ltd.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/wix-incubator/oss-gatsby-doc-template",
+      url: "https://github.com/wix-incubator/oss-gatsby-template-draft",
       iconClassName: "fa fa-github"
     },
     {

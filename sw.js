@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/oss-gatsby-template-draft/app-03c280b1ee998fd25eed.js","6b8f4f55fab64691c266dc277a93b999"],["/oss-gatsby-template-draft/app-d2cfd74ea6e76e90ae2f.js","0e05c39ea3290ee8bcdad16d0984001b"],["/oss-gatsby-template-draft/app-d8a132225d8fcdf4889a.js","e919c315a96cc14678972b93874b60d3"],["/oss-gatsby-template-draft/app-e306a3bf2679da33e5a7.js","b8be59f670d93e883631e3565445e3cd"],["/oss-gatsby-template-draft/commons-59d23a1d914311330e23.js","eaa139dfb1be0ec6f6dd5ba19028e1f1"],["/oss-gatsby-template-draft/commons-95174634053c999fbebe.js","e1214ee2bdb5011e589acec5988aa78d"],["/oss-gatsby-template-draft/index.html","094822bb5c65eda65ccededd05792940"],["/oss-gatsby-template-draft/manifest.json","5e4d36574acc3069dee52dfb14aa8e7d"],["/oss-gatsby-template-draft/offline-plugin-app-shell-fallback/index.html","e5caa9faa3955401ccbd84a597c1dc4b"]];
+var precacheConfig = [["/app-9c55fb520ec72af7b83f.js","bf15b943b01844f161f8f97031e0c98a"],["/commons-a2d59d03ea5373fe3980.js","862c5203c9b143890466f80a04ea8287"],["/index.html","f21419bf22cde75d97452a6a1c15afaa"],["/manifest.json","5e4d36574acc3069dee52dfb14aa8e7d"],["/offline-plugin-app-shell-fallback/index.html","2dde1f64b03dbd6989d459c5fd885e28"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 

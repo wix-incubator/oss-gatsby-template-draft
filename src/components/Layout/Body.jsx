@@ -11,7 +11,7 @@ class Body extends React.Component {
   render() {
     return (
       <Container>
-        <h1>Body</h1>
+        <h1 id={`page-title`}> Body</h1>
         <PostListing />
       </Container>
     )

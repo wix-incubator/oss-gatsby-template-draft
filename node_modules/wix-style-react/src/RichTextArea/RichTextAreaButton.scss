@@ -1,0 +1,43 @@
+@import '../common';
+@import '../Typography/Typography';
+@import '../common/Focusable/Focusable';
+
+.button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: $D30;
+  border-radius: 6px;
+  outline: none;
+ 
+  &:not(.disabled) {
+    &:hover,
+    &.isActive {
+      color: $B10;
+    }
+    
+    &#{$focusable-focus-visible} {
+      @include FocusBox;
+      z-index: 1;
+      position: relative;
+    }
+  }
+
+  &.disabled {
+    @extend .t2_1;
+  }
+}
+
+.wrapper {
+  height: 40px;
+  width: 52px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltipContent {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

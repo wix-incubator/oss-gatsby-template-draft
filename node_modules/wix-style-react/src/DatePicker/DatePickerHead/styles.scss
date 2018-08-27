@@ -1,0 +1,60 @@
+@import '../../common';
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 23px;
+  background: $B10;
+  border-radius: 8px 8px 0 0;
+  color: $D80;
+}
+
+.caption {
+  padding: 0 6px;
+  color: $D80;
+  font-weight: 300;
+  @include FontLight();
+  font-size: 16px;
+  line-height: 1.13;
+}
+
+.arrow {
+  z-index: 1;
+  transition: background-color 100ms;
+  border-radius: 50%;
+  &:hover:not(:active) {
+    background-color: $B20;
+  }
+}
+
+.arrow-icon {
+  display: block;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.arrow-left {
+  margin-right: auto;
+}
+
+.arrow-right {
+  margin-left: auto;
+}
+
+:global(.rtl) {
+  .arrow-icon {
+    transform: scaleX(-1);
+  }
+
+  .arrow-left {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .arrow-right {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}

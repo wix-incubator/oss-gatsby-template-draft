@@ -1,0 +1,86 @@
+.controlButton {
+  display: flex;
+  padding: 0;
+  cursor: pointer;
+  transition-duration: .2s;
+  transition-property: opacity;
+  opacity: 1;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center; }
+  .controlButton:hover {
+    opacity: .7; }
+
+.hidden {
+  visibility: hidden !important;
+  width: 0 !important;
+  min-width: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 0 !important; }
+
+.loader {
+  position: absolute;
+  z-index: 90;
+  top: 50%;
+  left: 50%;
+  display: none;
+  clip: rect(0, 48px, 48px, 24px);
+  width: 42px;
+  height: 42px;
+  margin-top: -21px;
+  margin-left: -21px;
+  animation: rotate 1s linear infinite;
+  color: white; }
+  .loader.active {
+    display: block; }
+  .loader::after {
+    clip: rect(4px, 48px, 48px, 24px);
+    animation: clip 1s linear infinite;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    border: 3px solid currentColor;
+    border-radius: 50%; }
+  .loader::before {
+    clip: rect(0, 48px, 48px, 24px);
+    animation: clip-reverse 1s linear infinite;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    border: 3px solid currentColor;
+    border-radius: 50%; }
+
+@keyframes clip {
+  50% {
+    clip: rect(42px, 48px, 48px, 24px);
+    animation-timing-function: ease-in-out; } }
+
+@keyframes clip-reverse {
+  50% {
+    clip: rect(0, 48px, 9px, 24px);
+    transform: rotate(135deg);
+    animation-timing-function: ease-in-out; } }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+    animation-timing-function: ease-out; }
+  45% {
+    transform: rotate(18deg);
+    color: white; }
+  55% {
+    transform: rotate(54deg); }
+  to {
+    transform: rotate(360deg); } }

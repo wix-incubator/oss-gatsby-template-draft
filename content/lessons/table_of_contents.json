@@ -1,251 +1,251 @@
 {
   "id": "table-of-contents",
-  "chapters": [
-    {
-      "title": "Getting Started",
-      "entries": [
-        {
-          "entry": "./concepts/main_concepts.md"
-        },
-        {
-          "entry": "./concepts/concept1.md"
-        },
-        {
-          "entry": "./concepts/concept2.md"
-        },
-        {
-          "entry": "./concepts/concept3.md"
-        },
-        {
-          "entry": "./concepts/concept4.md"
-        },
-        {
-          "entry": "./concepts/concept5.md"
-        },
-        {
-          "entry": "./concepts/qna.md"
-        }
-      ]
-    },
-    {
-      "title": "Installation and Setup",
       "chapters": [
         {
-          "title": "Installation",
+          "title": "Getting Started",
           "entries": [
             {
-              "entry": "./discover/installation.md"
+              "entry": "./concepts/main_concepts.md"
             },
             {
-              "entry": "./discover/installation_step1.1.md"
+              "entry": "./concepts/concept1.md"
             },
             {
-              "entry": "./discover/installation_step1.2.md"
+              "entry": "./concepts/concept2.md"
             },
             {
-              "entry": "./discover/installation_step1.3.md"
+              "entry": "./concepts/concept3.md"
             },
             {
-              "entry": "./discover/installation_step1.4.md"
+              "entry": "./concepts/concept4.md"
             },
             {
-              "entry": "./discover/installation_step1.5.md"
+              "entry": "./concepts/concept5.md"
+            },
+            {
+              "entry": "./concepts/qna.md"
             }
           ]
         },
         {
-          "title": "Configuration",
-          "entries": [
+          "title": "Installation and Setup",
+          "chapters": [
             {
-              "entry": "./discover/configuration.md"
+              "title": "Installation",
+              "entries": [
+                {
+                  "entry": "./discover/installation.md"
+                },
+                {
+                  "entry": "./discover/installation_step1.1.md"
+                },
+                {
+                  "entry": "./discover/installation_step1.2.md"
+                },
+                {
+                  "entry": "./discover/installation_step1.3.md"
+                },
+                {
+                  "entry": "./discover/installation_step1.4.md"
+                },
+                {
+                  "entry": "./discover/installation_step1.5.md"
+                }
+              ]
             },
             {
-              "entry": "./discover/configuration_step1.1.md"
+              "title": "Configuration",
+              "entries": [
+                {
+                  "entry": "./discover/configuration.md"
+                },
+                {
+                  "entry": "./discover/configuration_step1.1.md"
+                },
+                {
+                  "entry": "./discover/configuration_step1.2.md"
+                },
+                {
+                  "entry": "./discover/configuration_step1.3.md"
+                },
+                {
+                  "entry": "./discover/configuration_step1.4.md"
+                },
+                {
+                  "entry": "./discover/configuration_step1.5.md"
+                }
+              ]
             },
             {
-              "entry": "./discover/configuration_step1.2.md"
-            },
-            {
-              "entry": "./discover/configuration_step1.3.md"
-            },
-            {
-              "entry": "./discover/configuration_step1.4.md"
-            },
-            {
-              "entry": "./discover/configuration_step1.5.md"
+              "title": "Deployment",
+              "entries": [
+                {
+                  "entry": "./discover/deployment.md"
+                },
+                {
+                  "entry": "./discover/deployment_step1.1.md"
+                },
+                {
+                  "entry": "./discover/deployment_step1.2.md"
+                },
+                {
+                  "entry": "./discover/deployment_step1.3.md"
+                },
+                {
+                  "entry": "./discover/deployment_step1.4.md"
+                },
+                {
+                  "entry": "./discover/deployment_step1.5.md"
+                }
+              ]
             }
           ]
         },
         {
-          "title": "Deployment",
+          "title": "Basic Use",
           "entries": [
             {
-              "entry": "./discover/deployment.md"
+              "entry": "./basic_use/intro.md"
             },
             {
-              "entry": "./discover/deployment_step1.1.md"
+              "entry": "./basic_use/graphs.md"
             },
             {
-              "entry": "./discover/deployment_step1.2.md"
+              "entry": "./basic_use/notebooks.md"
             },
             {
-              "entry": "./discover/deployment_step1.3.md"
-            },
-            {
-              "entry": "./discover/deployment_step1.4.md"
-            },
-            {
-              "entry": "./discover/deployment_step1.5.md"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Basic Use",
-      "entries": [
-        {
-          "entry": "./basic_use/intro.md"
-        },
-        {
-          "entry": "./basic_use/graphs.md"
-        },
-        {
-          "entry": "./basic_use/notebooks.md"
-        },
-        {
-          "entry": "./basic_use/scheduled_jobs.md"
-        }
-      ]
-    },
-    {
-      "title": "Advanced Use",
-      "entries": [
-        {
-          "entry": "./advanced_use/roles_and_use_cases.md"
-        },
-        {
-          "entry": "./advanced_use/for_qa.md"
-        },
-        {
-          "entry": "./advanced_use/for_dev.md"
-        },
-        {
-          "entry": "./advanced_use/for_ba.md"
-        },
-        {
-          "entry": "./advanced_use/for_pm.md"
-        },
-        {
-          "entry": "./advanced_use/for_support.md"
-        }
-      ]
-    },
-    {
-      "title": "Tutorials",
-      "entries": [
-        {
-          "entry": "./lesson_one.md"
-        },
-        {
-          "entry": "./lesson_two.md"
-        },
-        {
-          "entry": "./lesson_three.md"
-        },
-        {
-          "entry": "./lesson_four.md"
-        },
-        {
-          "entry": "./lesson_five.md"
-        },
-        {
-          "entry": "./lesson_six.md"
-        }
-      ]
-    },
-    {
-      "title": "Customization and Development",
-      "chapters": [
-        {
-          "title": "Customization",
-          "entries": [
-            {
-              "entry": "./lesson_one.md"
-            },
-            {
-              "entry": "./lesson_one.md"
-            },
-            {
-              "entry": "./lesson_one.md"
+              "entry": "./basic_use/scheduled_jobs.md"
             }
           ]
         },
         {
-          "title": "Development",
+          "title": "Advanced Use",
           "entries": [
             {
-              "entry": "./lesson_one.md"
+              "entry": "./advanced_use/roles_and_use_cases.md"
             },
             {
-              "entry": "./lesson_one.md"
+              "entry": "./advanced_use/for_qa.md"
             },
             {
-              "entry": "./lesson_one.md"
+              "entry": "./advanced_use/for_dev.md"
+            },
+            {
+              "entry": "./advanced_use/for_ba.md"
+            },
+            {
+              "entry": "./advanced_use/for_pm.md"
+            },
+            {
+              "entry": "./advanced_use/for_support.md"
             }
           ]
         },
         {
-          "title": "API Reference",
+          "title": "Tutorials",
           "entries": [
             {
               "entry": "./lesson_one.md"
             },
             {
-              "entry": "./lesson_one.md"
+              "entry": "./lesson_two.md"
             },
             {
-              "entry": "./lesson_one.md"
-            }
-          ]
-        },
-        {
-          "title": "Testing and Debugging",
-          "entries": [
-            {
-              "entry": "./lesson_one.md"
+              "entry": "./lesson_three.md"
             },
             {
-              "entry": "./lesson_one.md"
+              "entry": "./lesson_four.md"
             },
             {
-              "entry": "./lesson_one.md"
-            }
-          ]
-        },
-        {
-          "title": "Troubleshooting",
-          "entries": [
-            {
-              "entry": "./lesson_one.md"
+              "entry": "./lesson_five.md"
             },
-            {
-              "entry": "./lesson_one.md"
-            },
-            {
-              "entry": "./lesson_one.md"
-            }
-          ]
-        },
-        {
-          "title": "Contribute",
-          "entries": [
             {
               "entry": "./lesson_six.md"
+            }
+          ]
+        },
+        {
+          "title": "Customization and Development",
+          "chapters": [
+            {
+              "title": "Customization",
+              "entries": [
+                {
+                  "entry": "./lesson_one.md"
+                },
+                {
+                  "entry": "./lesson_one.md"
+                },
+                {
+                  "entry": "./lesson_one.md"
+                }
+              ]
+            },
+            {
+              "title": "Development",
+              "entries": [
+                {
+                  "entry": "./lesson_one.md"
+                },
+                {
+                  "entry": "./lesson_one.md"
+                },
+                {
+                  "entry": "./lesson_one.md"
+                }
+              ]
+            },
+            {
+              "title": "API Reference",
+              "entries": [
+                {
+                  "entry": "./lesson_one.md"
+                },
+                {
+                  "entry": "./lesson_one.md"
+                },
+                {
+                  "entry": "./lesson_one.md"
+                }
+              ]
+            },
+            {
+              "title": "Testing and Debugging",
+              "entries": [
+                {
+                  "entry": "./lesson_one.md"
+                },
+                {
+                  "entry": "./lesson_one.md"
+                },
+                {
+                  "entry": "./lesson_one.md"
+                }
+              ]
+            },
+            {
+              "title": "Troubleshooting",
+              "entries": [
+                {
+                  "entry": "./lesson_one.md"
+                },
+                {
+                  "entry": "./lesson_one.md"
+                },
+                {
+                  "entry": "./lesson_one.md"
+                }
+              ]
+            },
+            {
+              "title": "Contribute",
+              "entries": [
+                {
+                  "entry": "./lesson_six.md"
+                }
+              ]
             }
           ]
         }
       ]
     }
-  ]
-}

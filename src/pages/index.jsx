@@ -25,13 +25,15 @@ class Index extends React.Component {
               <h4>{config.siteDescription}</h4>
               
               <InverseCtaButton to={'/lesson-one'}>Get Started</InverseCtaButton>
-              <InverseCtaButton to={'/lesson-one'}>Take a Tutorial</InverseCtaButton>
-              <InverseCtaButton to={'/lesson-one'}>Try In a SandBox</InverseCtaButton>
+              <InverseCtaButton to={'/tutorials'}>Take a Tutorial</InverseCtaButton>
+              <InverseCtaButton to={'/dev'}>Try In a SandBox</InverseCtaButton>
             </Hero>
           </IndexHeadContainer>
           <BodyContainer>
-            <ReactPlayer  url='https://youtu.be/Jx7L_2VkfR4' playing />
             
+            <div> <h2>A Gatsby Template for Content</h2>
+              <ReactPlayer  url='https://youtu.be/Jx7L_2VkfR4' playing='false' muted='true' controls='true' />
+            </div>
             <div className="grid-container" id="features">
               <div class="grid-item-1">
               <h3>Share queries</h3>
@@ -79,7 +81,7 @@ const IndexHeadContainer = styled.div`
 `
 
 const Hero = styled.div`
-  padding: 50px 0;
+  padding: 50px 25% 50px 25%;
   color: white;
   & > h1 {
     font-weight: 100;
@@ -87,6 +89,7 @@ const Hero = styled.div`
   }
   & > h4 {
     font-weight: 100;
+    text-align: justify;
   }
 `
 

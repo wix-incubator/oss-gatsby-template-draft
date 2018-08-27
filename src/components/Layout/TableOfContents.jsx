@@ -1,77 +1,56 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { FaSortDesc } from 'react-icons/lib/fa'
-import { isNull } from 'util';
+import { FaChevronDown } from 'react-icons/lib/fa'
 
 /* eslint react/no-array-index-key: "off" */
-
 
 function handleClick(event, title) {
   const list = document.getElementById(`list-${title}`)
   const chevron = document.getElementById(`chevron-${title}`)
   if (list.style.display === 'inherit') {
     list.style.display = 'none'
-    chevron.style.transform = 'rotate(270deg)'
+    chevron.style.transform = 'rotate(0deg)'
   } else {
     list.style.display = 'inherit'
-    chevron.style.transform = 'rotate(360deg)'
+    chevron.style.transform = 'rotate(180deg)'
   }
 }
 
-const Links = ({ entries , postTitle, indentation, level}) => (
+const Links = ({ entries }) => (
   <StyledLinkList>
     {entries.map(({ entry }, key) => (
-      <EntryListItem key={key} className={`tocitems tocitems-level-${level}`} id={`entry-li-${entry.childMarkdownRemark.frontmatter.title}`}>
+      <EntryListItem key={key}>
         <Link to={entry.childMarkdownRemark.fields.slug}>
-
-        { postTitle == entry.childMarkdownRemark.frontmatter.title && 
-           <EntryTitle className={`activeMenuItem`} id={`menu-title-${entry.childMarkdownRemark.frontmatter.title}`}>{indentation}<b>{entry.childMarkdownRemark.frontmatter.title}</b></EntryTitle>}
-
-        {postTitle !== entry.childMarkdownRemark.frontmatter.title && 
-          <EntryTitle id={`menu-title-${entry.childMarkdownRemark.frontmatter.title}`}>{indentation}{entry.childMarkdownRemark.frontmatter.title}</EntryTitle>}
+          <EntryTitle>{entry.childMarkdownRemark.frontmatter.title}</EntryTitle>
         </Link>
       </EntryListItem>
     ))}
   </StyledLinkList>
 )
 
-const ChapterList = ({ chapters, entries, postTitle, title, level = 0 }) => (
+const ChapterList = ({ chapters, entries, title, level = 0 }) => (
   <StyledChapterList>
     {title && (
       <ChapterListItem key={`${title}${level}`}
-        className={`head tochead-level-${level}`}
-        id={`head-${title}-level${level}`}
+        className={'head'}
+        id={`head-${title}`}
         onClick={event => handleClick(event, title)}
       >
-        { level==0 && <ChapterTitle level={level}>{title}</ChapterTitle>}
-        { level==1 && <ChapterTitle level={level}>{title}</ChapterTitle>}
-        { level==2 && <ChapterTitle level={level}>{title}</ChapterTitle>}
-        { level==3 && <ChapterTitle level={level}>{title}</ChapterTitle>}
-
-
-        { level==0 && <FaSortDesc className={'chevron'} id={`chevron-${title}`} />}
-        { level==1 && <FaSortDesc className={'chevron-1'} id={`chevron-${title}`} />}
-        { level==2 && <FaSortDesc className={'chevron-2'} id={`chevron-${title}`} />}
-        { level==3 && <FaSortDesc className={'chevron-3'} id={`chevron-${title}`} />}
+        <ChapterTitle level={level}>{title}</ChapterTitle>
+        <FaChevronDown className={'chevron'} id={`chevron-${title}`} />
       </ChapterListItem>
     )}
-    <ChapterListItem id={`list-${title}`} className={`toclist toclist-level-${level}`} postTitle={postTitle} style={{ display: 'inherit' }}>
-      
-      
-      {entries && <Links entries={entries} postTitle={postTitle}  level={level}/>} 
-
-  
-   {chapters &&
+    <ChapterListItem id={`list-${title}`} style={{ display: 'none' }}>{entries && <Links entries={entries} />} {chapters &&
       chapters.map((chapter, index) => (
-        <ChapterList {...chapter} level={level + 1} postTitle={postTitle} key={`${index}`} />
+        <ChapterList {...chapter} level={level + 1} key={`${index}`} />
       ))}</ChapterListItem>    
   </StyledChapterList>
 )
 
-const TableOfContents = ({ postTitle, chapters }) => (
-  <TOCWrapper >
-    {chapters.map((chapter, index) => <ChapterList {...chapter} postTitle={postTitle} key={index} />)}
+const TableOfContents = ({ chapters }) => (
+  <TOCWrapper>
+    {chapters.map((chapter, index) => <ChapterList {...chapter} key={index} />)}
   </TOCWrapper>
 )
 
@@ -123,32 +102,9 @@ const ChapterListItem = styled.li`
   .chevron {
     height: 15px;
     width: 15px;
-    color: ${props => props.theme.gatsbyLight}};
-    transform: rotate(360deg);
+    color: ${props => props.theme.gatsbyLight};
+    transform: rotate(0deg);
     transition: all 300ms ease-in-out;
-  }
-  .chevron-1 {
-    height: 12px;
-    width: 12px;
-    color: ${props => props.theme.submenuChevronColor}};
-    transform: rotate(360deg);
-    transition: all 300ms ease-in-out;
-  }
-
-  .toclist-level-1 {
-    padding-left: 10px;
-  }
-
-  .toclist-level-2 {
-
-    padding-left: 20px;
-  }
-
-  .tochead-level-1 {padding-left: 10px;}
-
-  .tochead-level-2 {padding-left: 20px;}
-
-  .tochead-level-3 {padding-left: 30px;}
 `
 
 const EntryListItem = styled.li`

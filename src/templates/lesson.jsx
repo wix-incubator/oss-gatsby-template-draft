@@ -7,12 +7,7 @@ import SiteHeader from '../components/Layout/Header'
 import config from '../../data/SiteConfig'
 import TableOfContents from '../components/Layout/TableOfContents'
 
-
 export default class LessonTemplate extends React.Component {
-  componentDidMount() {
-    document.getElementsByClassName(`activeMenuItem`).item(0).scrollIntoView({behavior: "instant", block: "center", inline: "nearest"})
-  }
-
   render() {
     const { slug } = this.props.pathContext
     const postNode = this.props.data.postBySlug
@@ -34,13 +29,13 @@ export default class LessonTemplate extends React.Component {
             <SiteHeader location={this.props.location} />
           </HeaderContainer>
           <ToCContainer>
-            <TableOfContents postTitle={post.title}
+            <TableOfContents
               chapters={this.props.data.tableOfContents.chapters}
             />
           </ToCContainer>
           <BodyContainer>
             <div>
-              <h1 id={`doc-title`}>{post.title}</h1>
+              <h1>{post.title}</h1>
               <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             </div>
           </BodyContainer>
@@ -149,9 +144,9 @@ export const pageQuery = graphql`
                 }
               }
             }
-          }  
+          }
         }
-      }  
+      }
     }
   }
 `

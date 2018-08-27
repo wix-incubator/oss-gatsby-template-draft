@@ -3,7 +3,7 @@ const theme = {
   brand: '#EB5E51',
   accent: '#0a5eb7',
   accentDark: '#35495E',
-  lightGrey: '#F9F9F9',
+  lightGrey: '#F6F6F6',
   darkGrey: '#91a2a3',
   ink: 'black',
   errorRed: '#FF6666',
@@ -12,8 +12,7 @@ const theme = {
 
   // content width:
   contentWidthLaptop: '1044px',
-  sitePadding: '25px',
-  submenuChevronColor: `#AA4DC8`
+  sitePadding: '25px'
 }
 
 export default theme

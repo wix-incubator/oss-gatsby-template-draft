@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "WixQuix", // Site title.
   siteTitleAlt: "Quix for interactive multi-source data analytics. Build BI queries of multi-sourced data via wizard or raw code. Organize and share your sql and python BI queries. Share and embed BI data.", // Alternative site title for SEO.
   siteLogo: "https://wix-incubator.github.io/oss-gatsby-template-draft/logos/wix_logo.png", // Logo used for SEO and manifest.
-  siteUrl: "https://wix-incubator.github.io/oss-gatsby-template-draft`", // Domain of your website without pathPrefix.
+  siteUrl: "https://wix-incubator.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/oss-gatsby-template-draft", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Design and embed interactive multi-source data analytics. Build BI queries of multi-sourced data via wizard or raw code. Organize and share your sql and python BI queries. Share and embed BI data.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.

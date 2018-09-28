@@ -73,8 +73,8 @@
       "path---google-cloud-deployment-32698b0f3eef0990a90c.js.map"
     ],
     "path---lesson-one": [
-      "path---lesson-one-9081b89414172d804628.js",
-      "path---lesson-one-9081b89414172d804628.js.map"
+      "path---lesson-one-6f82d70f2ceccd0f00c0.js",
+      "path---lesson-one-6f82d70f2ceccd0f00c0.js.map"
     ],
     "path---lesson-four": [
       "path---lesson-four-549433543532fd2b03b6.js",
@@ -109,8 +109,8 @@
       "path---for-product-management-5c32b283799396e265e3.js.map"
     ],
     "path---know-your-tools": [
-      "path---know-your-tools-6606661531fdd3889f47.js",
-      "path---know-your-tools-6606661531fdd3889f47.js.map"
+      "path---know-your-tools-cf05e9d096c3b17af372.js",
+      "path---know-your-tools-cf05e9d096c3b17af372.js.map"
     ],
     "path---lesson-five": [
       "path---lesson-five-ecabfcf6c6d396548826.js",
@@ -125,8 +125,8 @@
       "path---step-3-of-installation-process-9f84ecffeae3527853bf.js.map"
     ],
     "component---src-templates-lesson-jsx": [
-      "component---src-templates-lesson-jsx-8a30819075f4bda8d13c.js",
-      "component---src-templates-lesson-jsx-8a30819075f4bda8d13c.js.map"
+      "component---src-templates-lesson-jsx-d8156f8cc9f7c0595e6b.js",
+      "component---src-templates-lesson-jsx-d8156f8cc9f7c0595e6b.js.map"
     ],
     "path---create-graphs-and-interactive-reports": [
       "path---create-graphs-and-interactive-reports-89b28b04e7ba342c8e97.js",
@@ -137,8 +137,8 @@
       "path---for-business-analysts-c28492a3ea07526efe0d.js.map"
     ],
     "path---lesson-two": [
-      "path---lesson-two-a9667bd7aaf5177bfce2.js",
-      "path---lesson-two-a9667bd7aaf5177bfce2.js.map"
+      "path---lesson-two-5402e8349fba70313cf5.js",
+      "path---lesson-two-5402e8349fba70313cf5.js.map"
     ],
     "path---draft-your-report": [
       "path---draft-your-report-ac8af7a584227fb531e4.js",
@@ -153,8 +153,8 @@
       "component---src-templates-category-jsx-79f394448ef5d1ff97f1.js.map"
     ],
     "path---index": [
-      "path---index-f23faf53c58bac62d320.js",
-      "path---index-f23faf53c58bac62d320.js.map"
+      "path---index-6c554778967b1762d5ad.js",
+      "path---index-6c554778967b1762d5ad.js.map"
     ],
     "path---troubleshooting-deployment": [
       "path---troubleshooting-deployment-4e3cca695d11baf7fcd1.js",
@@ -181,8 +181,8 @@
       "path---step-1-of-installation-process-147c90afaea17ad53a4a.js.map"
     ],
     "path---post-one": [
-      "path---post-one-f0e4a357bc589246bd89.js",
-      "path---post-one-f0e4a357bc589246bd89.js.map"
+      "path---post-one-d598fb4620526101b08b.js",
+      "path---post-one-d598fb4620526101b08b.js.map"
     ],
     "path---concept-2": [
       "path---concept-2-ed34f362c7a4a0905328.js",
@@ -201,9 +201,9 @@
       "path---step-2-of-installation-process-9466a2744833edd5ac23.js.map"
     ],
     "commons": [
-      "commons-1fe575f4b86c705c00ba.js",
+      "commons-e75e5170c4bc07456d23.js",
       "build-js-styles.css",
-      "commons-1fe575f4b86c705c00ba.js.map",
+      "commons-e75e5170c4bc07456d23.js.map",
       "build-js-styles.css.map"
     ],
     "path---lesson-three": [
@@ -231,29 +231,29 @@
       "path---concept-5-cb7a650487e4dc62e450.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-33d5e8313b037d9dbddb.js",
-      "component---src-templates-post-jsx-33d5e8313b037d9dbddb.js.map"
+      "component---src-templates-post-jsx-7bc9bc39b17872295c94.js",
+      "component---src-templates-post-jsx-7bc9bc39b17872295c94.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-4c20cd75e8244bd5ad03.js",
-      "component---src-pages-index-jsx-4c20cd75e8244bd5ad03.js.map"
+      "component---src-pages-index-jsx-b2d43d72329cfd6571ac.js",
+      "component---src-pages-index-jsx-b2d43d72329cfd6571ac.js.map"
     ],
     "path---for-quality-assurance": [
       "path---for-quality-assurance-c41c7a2b20c2d866e88f.js",
       "path---for-quality-assurance-c41c7a2b20c2d866e88f.js.map"
     ],
     "path---what-is-quix": [
-      "path---what-is-quix-1f4028a570bb78f6db26.js",
-      "path---what-is-quix-1f4028a570bb78f6db26.js.map"
+      "path---what-is-quix-19cf358309624e4f57b3.js",
+      "path---what-is-quix-19cf358309624e4f57b3.js.map"
     ],
     "path---quix-for-your-role": [
-      "path---quix-for-your-role-07a561f8b29efec0e776.js",
-      "path---quix-for-your-role-07a561f8b29efec0e776.js.map"
+      "path---quix-for-your-role-d85c6651f080ff00ca84.js",
+      "path---quix-for-your-role-d85c6651f080ff00ca84.js.map"
     ],
     "app": [
-      "app-52b71626e0545ab1f4a0.js",
+      "app-9c282fa59c26551cb6ab.js",
       "build-js-styles.css",
-      "app-52b71626e0545ab1f4a0.js.map",
+      "app-9c282fa59c26551cb6ab.js.map",
       "build-js-styles.css.map"
     ],
     "path---schedule-your-report-updates": [

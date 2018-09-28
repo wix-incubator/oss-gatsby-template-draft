@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-docs-starter",
-  "description": "GatsbyJS starter designed with documentation and tutorial websites in mind.",
+  "name": "wix-oss-gatsby-docs-template",
+  "description": "Wix open source documentation template based on https://github.com/ericwindmill/gatsby-starter-docs (by Eric Windmill <eric@ericwindmill.com>) -- GatsbyJS starter designed with documentation and tutorial websites in mind.",
   "version": "1.0.1",
-  "author": "Eric Windmill <eric@ericwindmill.com>",
-  "homepage": "https://svitlanako.github.io/gatsby-doc-template",
+  "author": "Wix OSS Community",
+  "homepage": "https://wix-incubator.github.io/oss-gatsby-template-draft",
   "dependencies": {
     "babel-plugin-lodash": "^3.2.11",
     "gatsby": "^1.9.231",
@@ -74,7 +74,7 @@
     "lint": "npm run lint:js && npm run lint:md",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
     "format:js": "prettier 'src/**/*.{js,jsx}' --write",
-    "deploy": "GIT_USER=svitlanak@wix.com USE_SSH=true gatsby build --prefix-paths && GIT_USER=svitlanak@wix.com USE_SSH=true gh-pages -d public -b gh-pages https://github.com/SvitlanaKo/gatsby-doc-template.git"
+    "deploy": "GIT_USER=$(git config --get user.email) USE_SSH=true gatsby build --prefix-paths && GIT_USER=$(git config --get user.email) USE_SSH=true gh-pages -d public -b gh-pages https://github.com/SvitlanaKo/gatsby-doc-template.git"
   },
   "remarkConfig": {
     "plugins": [
